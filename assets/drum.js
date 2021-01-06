@@ -37,7 +37,7 @@ if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
         })
     );
 } else {
-    instructions.innerText = 'Press A, S, D, F, G, H, J, K to hear a drum sound.'
+    instructions.innerText = 'Press A, S, D, F, G, H, J, or K to hear a drum sound.'
     window.addEventListener("keydown", function (e) {
         const key = document.querySelector(
             `.key[data-key="${e.key.toLowerCase()}"]`
