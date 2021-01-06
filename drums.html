@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="drums">
+    <div class="header">
+        <div class="instructions"></div>
+        <a href="./index.html">Home</a>
+    </div>
+    <div class="keys">
+        <div data-key="a" class="key">
+            <kbd>A</kbd>
+            <p class="sound">clap</p>
+        </div>
+        <div data-key="s" class="key">
+            <kbd>S</kbd>
+            <p class="sound">hihat</p>
+        </div>
+        <div data-key="d" class="key">
+            <kbd>D</kbd>
+            <p class="sound">kick</p>
+        </div>
+        <div data-key="f" class="key">
+            <kbd>F</kbd>
+            <p class="sound">openhat</p>
+        </div>
+        <div data-key="g" class="key">
+            <kbd>G</kbd>
+            <p class="sound">boom</p>
+        </div>
+        <div data-key="h" class="key">
+            <kbd>H</kbd>
+            <p class="sound">ride</p>
+        </div>
+        <div data-key="j" class="key">
+            <kbd>J</kbd>
+            <p class="sound">snare</p>
+        </div>
+        <div data-key="k" class="key">
+            <kbd>K</kbd>
+            <p class="sound">tom</p>
+        </div>
+        <div data-key="l" class="key">
+            <kbd>L</kbd>
+            <p class="sound">tink</p>
+        </div>
+    </div>
+
+    <audio data-key="a" src="./assets/sounds/clap.wav"></audio>
+    <audio data-key="s" src="./assets/sounds/hihat.wav"></audio>
+    <audio data-key="d" src="./assets/sounds/kick.wav"></audio>
+    <audio data-key="f" src="./assets/sounds/openhat.wav"></audio>
+    <audio data-key="g" src="./assets/sounds/boom.wav"></audio>
+    <audio data-key="h" src="./assets/sounds/ride.wav"></audio>
+    <audio data-key="j" src="./assets/sounds/snare.wav"></audio>
+    <audio data-key="k" src="./assets/sounds/tom.wav"></audio>
+    <audio data-key="l" src="./assets/sounds/tink.wav"></audio>
+
+
+    <script src="./assets/drum.js"></script>
+</body>
+</html>
